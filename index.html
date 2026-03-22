@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio 2026</title>
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
+    <script src="js/webpf.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="css/webpf.css">
+</head>
+<body>
+    <header id="home">
+       <nav>
+            <div>
+                <button type="button" class="material-symbols-rounded">menu</button>
+                <p title="신다해">Shin Da Hae</p>
+                <div id="menu">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#project">Project</a>
+                    <a href="#event">Event</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </nav>
+        <div id="homescreen">
+            <img src="images/codingcomputer.png" alt="코딩화면이 보이는 컴퓨터 이미지">
+            <b>I deeply focus on small things<br>for development.</b>
+            <p>성실히 나아가는 신다해의 포트폴리오입니다.</p>
+        </div>
+        <a href="#about" id="click" title="클릭하시면 About 화면으로 이동합니다.">
+            <span class="material-symbols-rounded">arrow_circle_down</span>
+        </a>
+        <div id="shapeanimation">
+            <div id="c1"></div>
+            <div id="c2"></div>
+            <div id="c3"></div>
+            <div id="c4"></div>
+            <div id="c5"></div>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <div class="heading">
+                <h2>About</h2>
+                <p>성장하기 위해선 끊임없는 노력과 작은 것도 넘기지 않는 깊은 탐구력이 필요하다고 생각합니다.<br>배움에 도전하는 것을 마다하지 않고 꾸준하게 나아가는 신다해입니다.</p>
+            </div>
+            <article>
+                <h3 class="hidden">내 소개</h3>
+                <div>
+                    <b>ABOUT</b>
+                    <p>신다해</p>
+                    <img src="images/me.jpg" alt="입사지원자 신다해 이미지">
+                </div>
+                <div>
+                    <section>
+                        <h3>학력 사항 & 교육 이수</h3>
+                        <ul>
+                            <li><span>2014 - 2017</span>안산성포고등학교 인문계열 이과 졸업</li>
+                            <li><span>2017 - 2019</span>대전과학기술대학교 애완동물과 졸업</li>
+                            <li><span>2022 - 2023</span>그린컴퓨터아카데미 영상편집 & 모션그래픽 과정 수료</li>
+                            <li><span>2025. 07</span>라인컴퓨터아트학원 UI/UX 디자인 & 프론트엔드(React.js) 과정 수료</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>보유 자격증</h3>
+                        <ul>
+                            <li><span>2025. 06</span>웹디자인개발기능사 취득</li>
+                            <li><span>2025. 05</span>GTQi 일러스트 1급 취득</li>
+                            <li><span>2023. 03</span>GTQ 포토샵 1급 취득</li>
+                            <li><span>2017. 03</span>2종보통운전면허 취득</li>
+                        </ul>
+                    </section>
+                </div>
+            </article>
+            <article>
+                <h3 class="hidden">스킬 소개</h3>
+                <b>ABOUT SKILLS</b>
+                <div>
+                    <div class="skillsbox">
+                        <img src="images/html.png" alt="HTML 이미지">
+                        <form class="skillsform">
+                            <p>
+                                <label>HTML</label>
+                                <progress value="0" max="100" id="html">80%</progress>
+                            </p>
+                        </form>
+                    </div>
+                    <div class="skillsbox">
+                        <img src="images/css.png" alt="CSS 이미지">
+                        <form class="skillsform">
+                            <p>
+                                <label>CSS</label>
+                                <progress value="0" max="100" id="css">80%</progress>
+                            </p>
+                        </form>
+                    </div>
+                    <div class="skillsbox">
+                        <img src="images/javascript.png" alt="JavaScript 이미지">
+                        <form class="skillsform">
+                            <p>
+                                <label>JavaScript</label>
+                                <progress value="0" max="100" id="javascript">70%</progress>
+                            </p>
+                        </form>
+                    </div>
+                    <div class="skillsbox">
+                        <img src="images/jquery.png" alt="jquery 이미지">
+                        <form class="skillsform">
+                            <p>
+                                <label>jQuery</label>
+                                <progress value="0" max="100" id="jquery">70%</progress>
+                            </p>
+                        </form>
+                    </div>
+                    <div class="skillsbox">
+                        <img src="images/react.png" alt="react 이미지">
+                        <form class="skillsform">
+                            <p>
+                                <label>React</label>
+                                <progress value="0" max="100" id="react">40%</progress>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+                <div>
+                    <div class="skillsbox">
+                        <img src="images/Adobe_Photoshop.png" alt="어도비 포토샵 이미지">
+                        <form class="skillsform">
+                            <p>
+                                <label>Adobe<br>Photoshop</label>
+                                <progress value="0" max="100" id="photoshop">80%</progress>
+                            </p>
+                        </form>
+                    </div>
+                    <div class="skillsbox">
+                        <img src="images/Adobe_Illustrator.png" alt="어도비 일러스트래이터 이미지">
+                        <form class="skillsform">
+                            <p>
+                                <label>Adobe<br>Illustrator</label>
+                                <progress value="0" max="100" id="illustrator">80%</progress>
+                            </p>
+                        </form>
+                    </div>
+                    <div class="skillsbox">
+                        <img src="images/Adobe_premierepro.png" alt="어도비 프리미어프로 이미지">
+                        <form class="skillsform">
+                            <p>
+                                <label>Adobe<br>Premiere pro</label>
+                                <progress value="0" max="100" id="premiere">55%</progress>
+                            </p>
+                        </form>
+                    </div>
+                    <div class="skillsbox">
+                        <img src="images/adobe_aftereffect.png" alt="어도비 애프터 이팩트 이미지">
+                        <form class="skillsform">
+                            <p>
+                                <label>Adobe<br>After Effect</label>
+                                <progress value="0" max="100" id="aftereffect">55%</progress>
+                            </p>
+                        </form>
+                    </div>
+                    <div class="skillsbox">
+                        <img src="images/figma.png" alt="피그마 이미지">
+                        <form class="skillsform">
+                            <p>
+                                <label>Figma</label>
+                                <progress value="0" max="100" id="figma">70%</progress>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section id="project">
+            <div class="heading">
+               <h2>Project</h2>
+                <p>사용자를 고려한 디자인을 기획하고 웹접근성 표준에 맞게<br>기술 스킬들을 활용하여 프로토타입과 웹사이트를 제작하였습니다.</p> 
+            </div>
+            <section id="pj1">
+                <div class="pjleft">
+                    <h3>우리반려동물의료센터</h3>
+                    <ul>
+                        <li>
+                            <b>사이트명</b>
+                            <span>우리반려동물의료센터</span>
+                        </li>
+                        <li>
+                            <b>키워드</b>
+                            <span>반려동물, 직관적, 정보 안내</span>
+                        </li>
+                        <li>
+                            <b>제작기간</b>
+                            <span>2025. 08 ~ 2025. 09</span>
+                        </li>
+                        <li>
+                            <b>사용 스킬</b>
+                            <span>Phtoshop/Illustrator/Figma</span>
+                        </li>
+                        <li>
+                            <b>설명</b>
+                            <span>가상의 동물의료센터를 구상하고 사용자에게 해당 의료센터의 시설과 정보에 대해 효율적으로 전달할 수 있도록 화면을 설계하였으며, 피그마를 활용하여 실제 웹페이지 제작에 참고될 수 있도록 제작하였습니다.</span>
+                        </li>
+                    </ul>
+                    <nav>
+                        <a href="https://www.figma.com/proto/oirQj2mN2YTqLSNp2FibxN/%EC%9A%B0%EB%A6%AC%EB%B0%98%EB%A0%A4%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0?node-id=1-2&t=tOg12tg27QPNCTxR-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" target="_blank" title="클릭 시 피그마 프로토타입 페이지가 새 창으로 열립니다.">프로토타입 바로가기</a>
+                    </nav>
+                </div>
+                <div class="pjright">
+                    <img src="images/pjt1.png" alt="우리반려동물의료센터 피그마 목업이미지">
+                </div>
+            </section>
+            <section id="pj2">
+                <div class="pjleft">
+                    <h3>서울사진학원 리뉴얼 웹페이지</h3>
+                    <ul>
+                        <li>
+                            <b>사이트명</b>
+                            <span>서울사진학원</span>
+                        </li>
+                        <li>
+                            <b>키워드</b>
+                            <span>감성, 전문성, 정보 전달</span>
+                        </li>
+                        <li>
+                            <b>제작기간</b>
+                            <span>2025. 11 ~ 2025. 12</span>
+                        </li>
+                        <li>
+                            <b>사용 스킬</b>
+                            <span>HTML/CSS/jQeury/Photoshop/Illustrator/Figma</span>
+                        </li>
+                        <li>
+                            <b>설명</b>
+                            <span>기존 웹사이트는 정보의 구분이 불분명하고 사용자의 시선이 분산되는 문제점이 있었습니다. 때문에 텍스트와 이미지 간 적절한 밸런스를 유지하고, 직관적으로 정보를 파악할 수 있도록 리뉴얼하였습니다.</span>
+                        </li>
+                    </ul>
+                    <nav>
+                        <a href="https://www.figma.com/proto/qYhuYX6Kn2dErbWjVxvIOX/%EC%84%9C%EC%9A%B8%EC%82%AC%EC%A7%84%ED%95%99%EC%9B%90?node-id=1-3&t=FxxyU70G1H5SkFBx-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3" target="_blank" title="클릭 시 피그마 프로토타입 페이지가 새 창으로 열립니다.">프로토타입 바로가기</a>
+                        <a href="https://dadamstudy.github.io/pjt_spsre/" target="_blank" title="클릭 시 프로젝트 웹페이지가 새 창으로 열립니다.">웹페이지 바로가기</a>
+                        <a href="https://dadamstudy.github.io/pjt_spsre/" target="_blank" class="mobileweb" title="클릭 시 프로젝트 모바일 웹페이지가 새 창으로 열립니다.">모바일웹 바로가기</a>
+                    </nav>
+                </div>
+                <div class="pjright">
+                    <img src="images/portfolio-2r.png" alt="서울사진학원 목업이미지">
+                </div>
+            </section>
+        </section>
+        <section id="event">
+            <div class="heading">
+                <h2>Event & Details</h2>
+                <p>Photoshop / Illustrator / Figma 를 활용하여<br>디자인 할 수 있으며 이벤트 페이지와 상세페이지를 작업할 수 있습니다.</p>
+            </div>
+            <div>
+                <button type="button">
+                    <img src="images/event-0.jpg" alt="르모레 수제 쿠키 상세페이지">
+                    <i class="material-symbols-rounded">search</i>
+                    <b>자세히 보기</b>
+                </button>
+                <button type="button">
+                    <img src="images/event-1.jpg" alt="미끄럼방지패드 상세페이지">
+                    <i class="material-symbols-rounded">search</i>
+                    <b>자세히 보기</b>
+                </button>
+                <button type="button">
+                    <img src="images/event-3.jpg" alt="하버드 집중력 수업 책 표지">
+                    <i class="material-symbols-rounded">search</i>
+                    <b>자세히 보기</b>
+                </button>
+                <button type="button">
+                    <img src="images/event-7.jpg" alt="봄 페스티벌 이벤트 페이지">
+                    <i class="material-symbols-rounded">search</i>
+                    <b>자세히 보기</b>
+                </button>
+                <button type="button">
+                    <img src="images/event-6.jpg" alt="룰렛 신상 특가 이벤트 페이지">
+                    <i class="material-symbols-rounded">search</i>
+                    <b>자세히 보기</b>
+                </button>
+                <button type="button">
+                    <img src="images/event-9.jpg" alt="트레이더스 갓성비 특가 이벤트 페이지">
+                    <i class="material-symbols-rounded">search</i>
+                    <b>자세히 보기</b>
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer id="contact">
+        <div class="heading">
+            <h2>Contact Me</h2>
+            <p>소중한 연락을 기다립니다.</p>
+        </div>
+        <div>
+            <section>
+                <h3>E-mail</h3>
+                <p>green7562@naver.com</p>
+            </section>
+            <section>
+                <h3>Phone</h3>
+                <p>010. 5447. 6732</p>
+            </section>
+        </div>
+    </footer>
+    <!-- 이벤트 상세페이지 큰 이미지 보이기 (팝업 모달)-->
+    <section id="popup" title="클릭 시 창이 닫힙니다.">
+        <h3>작품 제목</h3>
+        <img src="#" alt="#">
+    </section>
+    <!-- 하단 topbutton 버튼-->
+    <div id="topbutton">
+        <a href="#home">
+            <span class="material-symbols-rounded" title="클릭 시 상단으로 이동합니다.">arrow_circle_up</span>
+        </a>
+    </div>
+</body>
+</html>
