@@ -247,14 +247,12 @@ main {
 }
 #about .skillsbox img {
     width: 100px;
-    top:50%; left:50%;
+    top:50%;
+    left:50%;
     transform: translate(-50%, -50%);
     position: absolute;
     transition: 0.5s;
 }
-/* #about .skillsbox:hover img, #about .skillsbox:focus img {
-    filter: blur(20px);
-} */
 #about .skillsform {
     top:80%;
     left: 50%;
@@ -452,7 +450,7 @@ main {
 
 
 /* 모바일 */
-@media (max-width: 750px) {
+@media (max-width: 800px) {
     h2 {
         font-size: 50px;
     }
@@ -530,12 +528,18 @@ main {
     #about .heading {
         text-align: center;
     }
+    #about section ul {
+        padding-left: 0;
+    }
     #about article:first-of-type {
         flex-direction: column;
     }
     #about ul li {
         line-height: 170%;
-        font-size: 15px;
+        font-size: 13px;
+    }
+    #about article section span {
+        width: 100px;
     }
     #about article:first-of-type b {
         width: 100%;
@@ -547,7 +551,7 @@ main {
     #about article:first-of-type div p {
         width: 100%;
         text-align: center;
-        font-size: 17px;
+        font-size: 15px;
         display: inline-block;
         transform: translateY(-5px);
     }
@@ -555,6 +559,9 @@ main {
         max-width: 200px;
         display: block;
         margin: auto;
+    }
+    #about article section {
+        padding: 5px;
     }
 
     #about article:last-of-type > div {
